@@ -1,0 +1,47 @@
+@media (min-width: 900px) {
+    .footer {
+        align-items: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    padding-bottom: 40px;
+}
+
+.dev {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.redes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h3 {
+    color: #ffa4de;
+    font-size: 25px;
+}
+
+.red {
+    font-size: 30px;
+    margin: 0 15px;
+    cursor: pointer;
+    transition: 0.3s;
+    color: #ffa4de
+    
+}
+
+.redes .red:hover {
+    color: #e77dc0;
+    font-size: 35px;
+}
